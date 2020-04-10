@@ -10,7 +10,6 @@ message=''
 phin=(p-1)*(q-1)
 for i in cipher:
 	i=long(i)
-	#print(pow(i,phin/3,n))
 	if pow(i,phin/3,n)==1:
 		message=message+'0'
 	else:
